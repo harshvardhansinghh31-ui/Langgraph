@@ -44,9 +44,9 @@ Langgraph/
 4. **Configure environment variables**
    Create a `.env` file in the root directory with your API keys, e.g.:
    ```
-   OPENAI_API_KEY=your_key_here
-   LANGCHAIN_API_KEY=your_key_here
-   LANGCHAIN_TRACING_V2=true
+   MISTRALAI_API_KEY=your_key_here
+   GROQ_API_KEY=your_key_here
+   TAVILY_API_KEY=your_key_here
    ```
 
 5. **Run the notebook**
@@ -69,7 +69,7 @@ Langgraph/
 - Python
 - LangGraph
 - LangChain
-- OpenAI (or other LLM provider)
+- MistralAI (or other LLM provider)
 - Jupyter Notebook
 
 ## 📄 License
